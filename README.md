@@ -59,8 +59,10 @@ Esta es una aplicación de **tienda online** que permite a los usuarios explorar
    ```bash
    git clone <URL_DEL_REPOSITORIO>
    cd <NOMBRE_PROYECTO>/backend
+   ```
 
 ## Instalar dependencias:
+```bash
 -npm install
 -Configurar variables de entorno en .env:
 -env
@@ -71,8 +73,10 @@ Esta es una aplicación de **tienda online** que permite a los usuarios explorar
 -Frontend
 -Ir a la carpeta frontend:
 -cd ../frontend
+```
 
 ## Instalar dependencias:
+```bash
 -npm install
 -Ejecutar aplicación:
 -npm run dev
@@ -90,8 +94,9 @@ Esta es una aplicación de **tienda online** que permite a los usuarios explorar
 -POST /products/:id/variations - Crear variación de un producto.
 
 -POST /products/seeder - Precargar productos de ejemplo.
-
+```
 ## Carrito
+```bash
 -POST /cart/create - Crear carrito.
 
 -POST /cart/add - Agregar producto al carrito.
@@ -101,8 +106,9 @@ Esta es una aplicación de **tienda online** que permite a los usuarios explorar
 -DELETE /cart/:cartId/item/:itemId - Eliminar ítem del carrito.
 
 -POST /cart/checkout/:id - Finalizar compra y calcular total.
-
+```
 ## Estructura del proyecto
+```bash
 cpp
 backend/
 │
@@ -133,17 +139,21 @@ frontend/
 │  │  │  ├─ Product.jsx
 │  │  │  └─ Cart.jsx
 │  │  └─ services/api.js
-Uso
+```
+## Uso
+```bash
 Acceder a la página principal: http://localhost:5173/
 
 -Navegar por los productos y ver detalles.
 -Agregar productos al carrito con medidas y variaciones.
 -Revisar carrito y finalizar compra.
-
+```
 ## Notas
+```bash
 -Las unidades soportadas son:
     -m2 (metros cuadrados)
     -m (metros lineales)
     -unit (unidades individuales)
 -Las imágenes se sirven desde la carpeta src/assets mediante ServeStaticModule.
 -El carrito se almacena en localStorage para persistencia temporal en frontend.
+```
