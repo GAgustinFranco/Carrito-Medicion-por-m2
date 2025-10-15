@@ -157,3 +157,8 @@ Acceder a la página principal: http://localhost:5173/
 -Las imágenes se sirven desde la carpeta src/assets mediante ServeStaticModule.
 -El carrito se almacena en localStorage para persistencia temporal en frontend.
 ```
+
+Agustín Franco Galvez
+📧 agustingalvez0901@gmail.com
+
+📍 Santa Fe (Capital), Argentina
